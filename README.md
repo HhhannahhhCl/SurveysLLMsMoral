@@ -1,4 +1,4 @@
-# Survey Experiments on LLMs - MFT \& MAC
+# Neither Agree Nor Disagree: Reliability Between and Within LLM Moral Survey Responses
 This repository gathers necessary materials, questionnaires and code for conducting experiments described in "Neither Agree Nor Disagree: Reliability Between and Within LLM Moral Survey Responses" (Anonymous, 2026)
 
 ## Code
