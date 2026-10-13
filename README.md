@@ -23,6 +23,9 @@ The respective questionnaires are part of this repository in the respective fold
 ### Questionnaires
 Each questionnaire has two versions. \_en contains the original English questionnaire. \_nor contains the Norwegian questionnaire presented to respondents. The questionnaires contain the adjustments described in the paper to ensure improve comparability.
 
+## Use of Generative AI
+Generative AI was used during coding for debugging purposes as well as the implementation of batched generation-based inference (generate_batched.py) following the example of the author-written code on scoring-based inference (generate.py). All code was carefully checked and corrected if necessary. The authors take full responsibility for the content. 
+
 ## References
 Curry, O. S., Mullins, D. A., & Whitehouse, H. (2019). Is it good to cooperate?: Testing the theory of morality-as-cooperation in 60 societies. Current Anthropology, 60(1), 47-69. doi: 10.1086/701478.
 
