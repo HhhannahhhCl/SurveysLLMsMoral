@@ -292,7 +292,7 @@ def generate(
     if model.name_or_path.split('/')[-1] == 'normistral-11b-warm':
         linebreak_id = torch.tensor([[214]]).to(device)
     else:
-        linebreak_id = tokenizer('\n', return_tensors='pt', add_special_tokens=False)['input_ids'].to(device) # CHECK
+        linebreak_id = tokenizer('\n', return_tensors='pt', add_special_tokens=False)['input_ids'].to(device) 
 
     if any(spec in model.name_or_path.split('/')[-1] for spec in ['instruct', 'Qwen']):
         eos = tokenizer('<|im_end|>', return_tensors='pt', add_special_tokens=False)['input_ids'].to(device)
