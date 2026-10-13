@@ -1,5 +1,5 @@
-# Neither Agree Nor Disagree: Reliability Between and Within LLM Moral Survey Responses
-This repository gathers necessary materials, questionnaires and code for conducting experiments described in "Neither Agree Nor Disagree: Reliability Between and Within LLM Moral Survey Responses" (Anonymous, 2026)
+# Neither Agree Nor Disagree: Reliability Between and Within LLM Survey Responses on Morality Questionnaires
+This repository gathers necessary materials, questionnaires and code for conducting experiments described in "Neither Agree Nor Disagree: Reliability Between and Within LLM Survey Responses on Morality Questionnaires" (Anonymous, 2026)
 
 ## Code
 * read_data.py contains the function to read the questionnaires into a dict with a structured format.
@@ -24,7 +24,7 @@ The respective questionnaires are part of this repository in the respective fold
 Each questionnaire has two versions. \_en contains the original English questionnaire. \_nor contains the Norwegian questionnaire presented to respondents. The questionnaires contain the adjustments described in the paper to ensure improve comparability.
 
 ## Use of Generative AI
-Generative AI was used during coding for debugging purposes as well as the implementation of batched generation-based inference (generate_batched.py) following the example of the author-written code on scoring-based inference (generate.py). All code was carefully checked and corrected if necessary. The authors take full responsibility for the content. 
+Generative AI (Claude) was used to assist in coding, concerning especially debugging and the implementation of batched generation-based inference (generate_batched.py) following our scoring-based inference (generate.py). All code was carefully checked and corrected if necessary. The authors take full responsibility for the content.
 
 ## References
 Curry, O. S., Mullins, D. A., & Whitehouse, H. (2019). Is it good to cooperate?: Testing the theory of morality-as-cooperation in 60 societies. Current Anthropology, 60(1), 47-69. doi: 10.1086/701478.
